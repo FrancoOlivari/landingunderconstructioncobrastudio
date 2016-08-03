@@ -3,7 +3,8 @@ body{
 	background: url("../images/cobra-background.png") no-repeat;
 	background-color: #f2f2f2;
 	background-size: cover;
-	width: 110%;
+	width: 100%;
+	height: 100%;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
