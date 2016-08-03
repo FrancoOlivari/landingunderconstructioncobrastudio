@@ -3,7 +3,7 @@ body{
 	background: url("../images/cobra-background.png") no-repeat;
 	background-color: #f2f2f2;
 	background-size: cover;
-	width: 100%;
+	width: 110%;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
@@ -44,6 +44,22 @@ p{
 	text-decoration: none;
 	color: inherit;
 }
+@media (max-width: 380px){
+	#acomodacion{
+		text-align: center;
+		width: 94%;
+	}
+	#texto1{
+		display: inline-block;
+		float: none;
+		padding-top: 0%;
+		padding-left: 0%;
+	}
+	#acomodacion2{
+		text-align: center;
+		width: 92%;
+	}
+}
 @media (max-width: 430px){
 	#contenedorlogo{
 		float: none;
@@ -56,6 +72,7 @@ p{
 		font-size: 20px;
 		text-align: center;
 		padding-top: 0;
+		padding-left: 0;
 	}
 	#texto2{
 		text-align: center;
