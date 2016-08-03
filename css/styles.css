@@ -45,7 +45,7 @@ p{
 	text-decoration: none;
 	color: inherit;
 }
-@media (max-width: 380px){
+@media screen (max-width: 380px){
 	#acomodacion{
 		text-align: center;
 		width: 94%;
@@ -61,7 +61,7 @@ p{
 		width: 92%;
 	}
 }
-@media (max-width: 430px){
+@media screen (max-width: 430px){
 	#contenedorlogo{
 		float: none;
 		text-align: center;
